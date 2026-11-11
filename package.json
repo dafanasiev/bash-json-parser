@@ -1,0 +1,22 @@
+{
+  "name": "xxx",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "turbo run lint",
+    "fmt": "oxfmt .",
+    "fmt:check": "oxfmt --check .",
+    "test": "turbo run test",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "@eftr.eds/oxfmt-config": "workspace:*",
+    "oxfmt": "^0",
+    "turbo": "^2"
+  },
+  "engines": {
+    "node": "26.13.0"
+  },
+  "packageManager": "pnpm@12.18.0"
+}
